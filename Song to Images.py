@@ -120,7 +120,7 @@ def getDownloadPath():
         return path
 
 def getDownloadBehavior():
-        """Get the download behavior of the program"""
+        """Get the download behavior of the program - which images are downloaded"""
         behaviorChoice = input("Do you want to?\n1. Get the first image from the google search\n2. Get a random image from the first five image results\n3. Get a random image from the first ten image results\n4. Get a random image from all available images (on the first results page)\n:")
         while not (behaviorChoice == "1" or behaviorChoice == "2" or behaviorChoice == "3" or behaviorChoice == "4"):
                 print("Invalid input")
